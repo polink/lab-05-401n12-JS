@@ -1,0 +1,80 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "This is documentation for Lab 06, and an initial start at using Swagger.io. Where do I put the pet data in here?!",
+    "version": "1.0.1",
+    "title": "401n12-JS: Lab 06",
+    "author": "Karl Polintan"
+  },
+  "paths": {
+    "": {
+      "get": {
+        "description": "",
+        "responses": {
+          "200": {
+            "description": "",
+            "schema": {
+              "$ref": ""
+            }
+          }
+        }
+      }
+    },
+    "null": {
+      "parameters": [
+        {
+          "in": "",
+          "name": "",
+          "required": null,
+          "type": ""
+        }
+      ],
+      "null": {
+        "description": "",
+        "responses": {
+          "200": {
+            "description": "",
+            "schema": {
+              "$ref": "#/definitions/getOne"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "getAll": {
+      "type": "object",
+      "items": {
+        "type": "object",
+        "properties": {}
+      },
+      "example": [
+        {
+          "name": "Category 1",
+          "id": 1
+        },
+        {
+          "name": "Category 2",
+          "id": 2
+        }
+      ]
+    },
+    "getOne": {
+      "type": "object",
+      "items": {
+        "type": "object",
+        "properties": {}
+      },
+      "example": {
+        "name": "Category Name",
+        "id": 1
+      }
+    }
+  },
+  "host": "localhost:3000",
+  "basePath": "/",
+  "schemes": [
+    "http"
+  ]
+}

@@ -1,15 +1,15 @@
-![CF](http://i.imgur.com/7v5ASc8.png) LAB 01 DEMO
+![CF](http://i.imgur.com/7v5ASc8.png) LAB 06 DEMO
 ==============================================
 
-## LAB 01
-[![Build Status](https://travis-ci.org/vladimirsan/cf-travis-deployment.svg?branch=master)](https://travis-ci.org/vladimirsan/cf-travis-deployment)
+## LAB 06
+[![Build Status]()]()
 
-### Author: Vinicio Sanchez
+### Author: Karl Polintan
 
 ### Links and Resources
-* [repo](https://github.com/vladimirsan/401n12-lab0)
-* [travis](https://travis-ci.com/vladimirsan/401n12-lab0)
-* [back-end](https://lab0-401n12.herokuapp.com/)
+* [repo](https://github.com/polink/lab-06-401n12-JS)
+* [travis]()
+* [back-end]()
 
 ### Modules
 #### `greet.js`
