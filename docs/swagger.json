@@ -1,15 +1,15 @@
 {
   "swagger": "2.0",
   "info": {
-    "description": "This is documentation for Lab 06, and an initial start at using Swagger.io. Where do I put the pet data in here?!",
-    "version": "1.0.1",
-    "title": "401n12-JS: Lab 06",
-    "author": "Karl Polintan"
+    "description": "This is a lab to examine how to make documentation via Swagger, with a simple JSON database.",
+    "version": "1.0.0",
+    "title": "CodeFellows 401n12:       Lab 6      - The Swagginator"
   },
   "paths": {
-    "": {
+    "/categories": {
       "get": {
-        "description": "",
+        "summary": "Let's see what's in here!",
+        "description": "A bunch of random animals",
         "responses": {
           "200": {
             "description": "",
@@ -18,7 +18,8 @@
             }
           }
         }
-      }
+      },
+      "post": {}
     },
     "null": {
       "parameters": [
@@ -40,6 +41,18 @@
           }
         }
       }
+    },
+    "/categories/id": {
+      "put": {},
+      "delete": {}
+    },
+    "/products": {
+      "get": {},
+      "post": {}
+    },
+    "/products/id": {
+      "put": {},
+      "delete": {}
     }
   },
   "definitions": {
